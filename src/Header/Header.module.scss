@@ -1,0 +1,54 @@
+.heading {
+    width: 100%;
+    height: 50px;
+    background-color:#fff ;
+    // 
+    text-align: center;
+    display: flex;
+    border-bottom: 1px solid #ccc;
+    justify-content: space-evenly;
+    .ul1{
+        transform: translateX(320px);
+    }
+    .phone{
+        width: 200px;
+        display: flex;
+        color:black;
+        // border-right: 1px solid #ccc; /* Đường viền màu đen bên trái */
+        // padding-right: 20px; /* Khoảng cách giữa đường viền và nội dung */
+        // margin: 10px; /* Khoảng cách giữa các div */
+        // padding: 20px 0;
+    }
+   a {
+    color:black;
+   text-decoration: none;
+   font-size: 15px;
+   }
+   
+}
+.gioithieu {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid blue;
+    a{
+
+        text-decoration: none;
+        color: black;
+        font-size: 18px;
+        &:hover{
+            color: blue;
+           }
+    }
+    li{
+        list-style-type: none;
+        display: inline;
+        padding: 20px 30px;
+      
+    }
+}
+
+.theli a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    color: blue;
+}
