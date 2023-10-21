@@ -12,61 +12,250 @@ import glc300 from '../Content/imgcontent/glc-300.jpg'
 import gls450 from '../Content/imgcontent/gls 450.jpg'
 import S450lx from '../Content/imgcontent/s450 lx.jpg'
 import eqs from '../Content/imgcontent/eqs 500.jpg'
+import S450 from '../Content/imgcontent/S450.jpg'
+import c200cu2019 from '../Content/imgcontent/c20-2018cu.jpg'
+import c200cu2018 from '../Content/imgcontent/c20-2018cu.jpg'
+import c250cu from '../Content/imgcontent/c250-2018cu.jpg'
+import e200cu from '../Content/imgcontent/e200cu.jpg'
+import e200cuden from '../Content/imgcontent/e200dencu.jpg'
+import glc200cu from '../Content/imgcontent/glc-2019cu.jpg'
+
 const Content = ()=>{
     return(
         <div>
 
  <div className={clsx(Styles.dropdown)}>
-  <h1 style={{paddingTop: '30px'}}>XE MERCEDES-BENZ NEW </h1>
-  <div className="row">
-    <div  className={clsx(Styles.col)}>
-    <div className="card" style={{width: '18rem'}}>
-  <img src={c200} className="card-img-top" alt="..."/>
+ <a style={{textDecoration:'none'}} href=''><h2>XE MERCEDES-BENZ NEW</h2></a>
+  
+  <div  className={clsx("row" , Styles.row1)}>
+    <div className={clsx( 'col', Styles.customcol)}>
+    <div  className="card" style={{width: '18rem'}}>
+  <img className="card-img-top" src={c200} alt="Card image cap"/>
   <div className="card-body">
-    {/* <h5 className="card-title">Card title</h5> */}
-    <p className="card-text">Mercedes-Benz C200 Avantgarde | Mercedes Hà Nội</p>
+    <p className="card-text">Mercedes-Benz C200 | Mercedes Hà Nội</p>
     <a href="#" className="btn btn-primary">1.599.000.000</a>
   </div>
 </div>
     </div>
-    <div  className={clsx(Styles.col)}>
+    <div className={clsx("col" , Styles.customcol)}>
+    <div >
     <div className="card" style={{width: '18rem'}}>
-  <img src={c200ps} className="card-img-top" alt="..."/>
+  <img className="card-img-top" src={c200ps} alt="Card image cap"/>
   <div className="card-body">
-    {/* <h5 className="card-title">Card title</h5> */}
-    <p className="card-text">Mercedes-Benz C200 Avantgarde Plus | Mercedes Hà Nội</p>
-    <a href="#" className="btn btn-primary">1.599.000.000</a>
-  </div>
-</div>
-    </div>
-    <div  className={clsx(Styles.col)}>
-    <div className="card" style={{width: '18rem'}}>
-  <img src={c200ps} className="card-img-top" alt="..."/>
-  <div className="card-body">
-    {/* <h5 className="card-title">Card title</h5> */}
-    <p className="card-text">Mercedes-Benz C200 Avantgarde Plus | Mercedes Hà Nội</p>
-    <a href="#" className="btn btn-primary">1.599.000.000</a>
-  </div>
-</div>
-    </div>
-    <div  className={clsx(Styles.col)}>
-    <div className="card" style={{width: '18rem'}}>
-  <img src={c200ps} className="card-img-top" alt="..."/>
-  <div className="card-body">
-    {/* <h5 className="card-title">Card title</h5> */}
-    <p className="card-text">Mercedes-Benz C200 Avantgarde Plus | Mercedes Hà Nội</p>
-    <a href="#" className="btn btn-primary">1.599.000.000</a>
+    <p className="card-text">Mercedes-Benz C200 Plus | Mercedes Hà Nội</p>
+    <a href="#" className="btn btn-primary">1.849.000.000</a>
   </div>
 </div>
     </div>
     
-   
+    </div>
+    <div className={clsx("col" , Styles.customcol)}>
+    <div >
+    <div className="card" style={{width: '18rem'}}>
+  <img className="card-img-top" src={c300} alt="Card image cap"/>
+  <div className="card-body">
+    <p className="card-text">Mercedes-Benz C300 Plus | Mercedes Hà Nội</p>
+    <a href="#" className="btn btn-primary">2.099.000.000</a>
+  </div>
+</div>
+    </div>
+    
+    </div>
+    
+</div>
+
+{/* /* mercedes này  */ }
+<div  className={clsx("row" , Styles.row1)}>
+    <div className={clsx( 'col', Styles.customcol)}>
+    <div  className="card" style={{width: '18rem'}}>
+  <img className="card-img-top" src={E180} alt="Card image cap"/>
+  <div className="card-body">
+    <p className="card-text">Mercedes-Benz E180 | Mercedes Hà Nội</p>
+    <a href="#" className="btn btn-primary">2.159.000.000</a>
+  </div>
+</div>
+    </div>
+    <div className={clsx("col" , Styles.customcol)}>
+    <div >
+    <div className="card" style={{width: '18rem'}}>
+  <img className="card-img-top" src={E200} alt="Card image cap"/>
+  <div className="card-body">
+    <p className="card-text">Mercedes-Benz E200 Plus | Mercedes Hà Nội</p>
+    <a href="#" className="btn btn-primary">2.540.000.000</a>
+  </div>
+</div>
+    </div>
+    
+    </div>
+    <div className={clsx("col" , Styles.customcol)}>
+    <div >
+    <div className="card" style={{width: '18rem'}}>
+  <img className="card-img-top" src={eqs} alt="Card image cap"/>
+  <div className="card-body">
+    <p className="card-text">Mercedes-Benz EQS Plus | Mercedes Hà Nội</p>
+    <a href="#" className="btn btn-primary">2.099.000.000</a>
+  </div>
+</div>
+    </div>
+    
+    </div>
+    
+</div>
+{/* mer gls */}
+<div  className={clsx("row" , Styles.row1)}>
+    <div className={clsx( 'col', Styles.customcol)}>
+    <div  className="card" style={{width: '18rem'}}>
+  <img className="card-img-top" src={E300} alt="Card image cap"/>
+  <div className="card-body">
+    <p className="card-text">Mercedes-Benz E300 | Mercedes Hà Nội</p>
+    <a href="#" className="btn btn-primary">3.029.000.000</a>
+  </div>
+</div>
+    </div>
+    <div className={clsx("col" , Styles.customcol)}>
+    <div >
+    <div className="card" style={{width: '18rem'}}>
+  <img className="card-img-top" src={glc200} alt="Card image cap"/>
+  <div className="card-body">
+    <p className="card-text">Mercedes-Benz GlC200 Plus | Mercedes Hà Nội</p>
+    <a href="#" className="btn btn-primary">2.299.000.000</a>
+  </div>
+</div>
+    </div>
+    
+    </div>
+    <div className={clsx("col" , Styles.customcol)}>
+    <div >
+    <div className="card" style={{width: '18rem'}}>
+  <img className="card-img-top" src={glc300} alt="Card image cap"/>
+  <div className="card-body">
+    <p className="card-text">Mercedes-Benz GLC300 Plus | Mercedes Hà Nội</p>
+    <a href="#" className="btn btn-primary">2.799.000.000</a>
+  </div>
+</div>
+    </div>
+    
+    </div>
+    
+</div>
+{/* S luxury */}
+<div  className={clsx("row" , Styles.row1)}>
+    <div className={clsx( 'col', Styles.customcol)}>
+    <div  className="card" style={{width: '18rem'}}>
+  <img className="card-img-top" src={S450lx} alt="Card image cap"/>
+  <div className="card-body">
+    <p className="card-text">Mercedes-Benz S450 Luxury | Mercedes Hà Nội</p>
+    <a href="#" className="btn btn-primary">5.599.000.000</a>
+  </div>
+</div>
+    </div>
+    <div className={clsx("col" , Styles.customcol)}>
+    <div >
+    <div className="card" style={{width: '18rem'}}>
+  <img className="card-img-top" src={gls450} alt="Card image cap"/>
+  <div className="card-body">
+    <p className="card-text">Mercedes-Benz GLS450  | Mercedes Hà Nội</p>
+    <a href="#" className="btn btn-primary">5.249.000.000</a>
+  </div>
+</div>
+    </div>
+    
+    </div>
+    <div className={clsx("col" , Styles.customcol)}>
+    <div >
+    <div className="card" style={{width: '18rem'}}>
+  <img className="card-img-top" src={S450} alt="Card image cap"/>
+  <div className="card-body">
+    <p className="card-text">Mercedes-Benz S450 | Mercedes Hà Nội</p>
+    <a href="#" className="btn btn-primary">4.099.000.000</a>
+  </div>
+</div>
+    </div>
+    
+    </div>
+    
+</div>
 
   </div>
+  <div className={clsx(Styles.quasudung)}>
+    <a style={{textDecoration: 'none'}} href=''><h2>XE CŨ ĐÃ QUA SỬ DỤNG</h2></a>
+  <div>
+  <div  className={clsx("row" , Styles.row1)}>
+    <div className={clsx( 'col', Styles.customcol)}>
+    <div  className="card" style={{width: '18rem'}}>
+  <img className="card-img-top" src={c200cu2018} alt="Card image cap"/>
+  <div className="card-body">
+    <p className="card-text">[Xe Cũ]Mercedes-Benz C200 2018 | Mercedes Hà Nội</p>
+    <a href="#" className="btn btn-primary">1.319.000.000</a>
+  </div>
+</div>
+    </div>
+    <div className={clsx("col" , Styles.customcol)}>
+    <div >
+    <div className="card" style={{width: '18rem'}}>
+  <img className="card-img-top" src={c200cu2019} alt="Card image cap"/>
+  <div className="card-body">
+    <p className="card-text">[Xe Cũ]Mercedes-Benz C200 2019  | Mercedes Hà Nội</p>
+    <a href="#" className="btn btn-primary">1.399.000.000</a>
+  </div>
+</div>
+    </div>
+    
+    </div>
+    <div className={clsx("col" , Styles.customcol)}>
+    <div >
+    <div className="card" style={{width: '18rem'}}>
+  <img className="card-img-top" src={c250cu} alt="Card image cap"/>
+  <div className="card-body">
+    <p className="card-text">[Xe Cũ]Mercedes-Benz C250 Exclusive 2018 | Mercedes Hà Nội</p>
+    <a href="#" className="btn btn-primary">1.319.000.000</a>
+  </div>
+</div>
+    </div>
+    
+    </div>
 
+</div>
+<div  className={clsx("row" , Styles.row1)}>
+    <div className={clsx( 'col', Styles.customcol)}>
+    <div  className="card" style={{width: '18rem'}}>
+  <img className="card-img-top" src={e200cu} alt="Card image cap"/>
+  <div className="card-body">
+    <p className="card-text">[Xe Cũ]Mercedes-Benz E200 2019 | Mercedes Hà Nội</p>
+    <a href="#" className="btn btn-primary">1.359.000.000</a>
+  </div>
+</div>
+    </div>
+    <div className={clsx("col" , Styles.customcol)}>
+    <div >
+    <div className="card" style={{width: '18rem'}}>
+  <img className="card-img-top" src={e200cuden} alt="Card image cap"/>
+  <div className="card-body">
+    <p className="card-text">[Xe Cũ]Mercedes-Benz E200 2018  | Mercedes Hà Nội</p>
+    <a href="#" className="btn btn-primary">1.799.000.000</a>
+  </div>
+</div>
+    </div>
+    
+    </div>
+    <div className={clsx("col" , Styles.customcol)}>
+    <div >
+    <div className="card" style={{width: '18rem'}}>
+  <img className="card-img-top" src={glc200cu} alt="Card image cap"/>
+  <div className="card-body">
+    <p className="card-text">[Xe Cũ]Mercedes-Benz GLC 200 2019 | Mercedes Hà Nội</p>
+    <a href="#" className="btn btn-primary">1.619.000.000</a>
+  </div>
+</div>
+    </div>
+    
+    </div>
+    
+</div>
+  </div>
+  </div>
+</div>
 
-        </div>
-        </div>
     )
 }
 export default Content;

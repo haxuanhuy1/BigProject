@@ -66,7 +66,7 @@ console.log(statestore.payload)
     <Headerone />
     <Slide />
    <Content />
-    <Nhap />
+    {/* <Nhap /> */}
     {isvisible && statestore.payload   ? <Modal /> : null}
     {/* {statestore && isvisible  && <Modal />} */}
     </div>

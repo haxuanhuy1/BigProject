@@ -8,14 +8,23 @@
   .card {
     border-radius: 5px;
   }
-  .col {
-    cursor: pointer;
-    p{
+  .row1{
+    padding-top: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    .customcol {
+      cursor: pointer;
+    p {
       &:hover {
         color: blue;
       }
     }
-    .EC{
-      display: flex;
     }
+  }
+  .quasudung {
+    padding-top: 50px;
+    height: 1000px;
+    width: 100%;
+    background-image: url(imgcontent/nenmer.png)
+   
   }
