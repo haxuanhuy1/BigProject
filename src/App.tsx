@@ -4,7 +4,7 @@ import './App.css';
 import Headerone from './Header/Headerone'
 import Content from './Content/Content'
 import Nhap from './Nhap/Nhap'
-import Slider from './Slider/Slider';
+import Slide from './Slider/Slider';
 import { useEffect , useState } from "react"
 import { Modal } from './Modal/Modal';
 import { decrement } from './redux/dispatch';
@@ -64,7 +64,7 @@ console.log(statestore.payload)
     <div className="App">
      
     <Headerone />
-    <Slider />
+    <Slide />
    <Content />
     <Nhap />
     {isvisible && statestore.payload   ? <Modal /> : null}
