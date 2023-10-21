@@ -1,9 +1,21 @@
 .custom-card-title {
     color: #007bff;
   }
+  
   .card-text{
     color: green;
   }
   .card {
     border-radius: 5px;
+  }
+  .col {
+    cursor: pointer;
+    p{
+      &:hover {
+        color: blue;
+      }
+    }
+    .EC{
+      display: flex;
+    }
   }
