@@ -19,6 +19,9 @@ import c250cu from '../Content/imgcontent/c250-2018cu.jpg'
 import e200cu from '../Content/imgcontent/e200cu.jpg'
 import e200cuden from '../Content/imgcontent/e200dencu.jpg'
 import glc200cu from '../Content/imgcontent/glc-2019cu.jpg'
+import cantho from '../Content/imgcontent/Cantho.jpg'
+import hoankiem from '../Content/imgcontent/Hoankiem.png'
+import nhatrang from '../Content/imgcontent/Nha trang.jpg'
 
 const Content = ()=>{
     return(
@@ -253,6 +256,51 @@ const Content = ()=>{
     
 </div>
   </div>
+  </div>
+  <div className={clsx(Styles.daili)}>
+    <h2>Đại lí Mercedes</h2>
+    <div  className={clsx("row" , Styles.row1)}>
+    <div className={clsx( 'col', Styles.customcol)}>
+    <div  className="card" style={{width: '18rem'}}>
+  <img className="card-img-top" src={cantho} alt="Card image cap"/>
+  <div className="card-body">
+    <span><a href=''>Mercedes-Benz Haxaco Cần Thơ</a></span>
+    <p className="card-text">Mercedes Hà Nội - 20/09/2022</p>
+    <p>Mercedes-Benz Haxaco Cần Thơ là đại lý ủy quyền phân phối chính hãng các dòng xe của Mercedes-Benz Việt Nam tại Thành phố Cần Thơ, Đây là cơ sở mới...</p>
+    <a href="#" className={clsx('btn btn-primary' ,Styles.xemchitiet )}>Xem chi tiết</a>
+  </div>
+</div>
+    </div>
+    <div className={clsx("col" , Styles.customcol)}>
+    <div >
+    <div className="card" style={{width: '18rem'}}>
+  <img className="card-img-top" src={hoankiem} alt="Card image cap"/>
+  <div className="card-body">
+    <span><a href=''>Mercedes-Benz Hoàn Kiếm</a></span>
+    <p className="card-text">Mercedes Hà Nội - 08/09/2022</p>
+    <p>Mercedes-Benz Vietnam Star Hoàn Kiếm là đại lý ủy quyền phân phối chính hãng các dòng xe của Mercedes-Benz Việt Nam tại Hà Nội, Đây là cơ sở được di...</p>
+    <a href="#" className={clsx('btn btn-primary' ,Styles.xemchitiet )}>Xem chi tiết</a>
+  </div>
+</div>
+    </div>
+    
+    </div>
+    <div className={clsx("col" , Styles.customcol)}>
+    <div >
+    <div className="card" style={{width: '18rem'}}>
+  <img className="card-img-top" src={nhatrang} alt="Card image cap"/>
+  <div className="card-body">
+    <span><a href=''>Mercedes-Benz Nha Trang</a></span>
+    <p>Mercedes Hà Nội - 10/07/2022</p>
+    <p>Mercedes Nha Trang là đại lý ủy quyền phân phối chính hãng các dòng xe của Mercedes-Benz Việt Nam tại khu vực Nha Trang, là đơn vị trực thuộc của...</p>
+      <a href="#" className={clsx('btn btn-primary' ,Styles.xemchitiet )}>Xem chi tiết</a>
+  </div>
+</div>
+    </div>
+    
+    </div>
+    
+</div>
   </div>
 </div>
 
