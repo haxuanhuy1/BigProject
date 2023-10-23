@@ -9,7 +9,7 @@ import { useEffect , useState } from "react"
 import { Modal } from './Modal/Modal';
 import { decrement } from './redux/dispatch';
 import { useSelector } from 'react-redux';
-
+import Footer from './footer/Footer';
 function App() {
   const [isvisible , setIsvisible] = useState(false);
   // useEffect (()=>{
@@ -70,6 +70,7 @@ console.log(statestore.payload)
     {/* <Nhap /> */}
     {isvisible && statestore.payload   ? <Modal /> : null}
     {/* {statestore && isvisible  && <Modal />} */}
+    <Footer />
     </div>
   );
 }
