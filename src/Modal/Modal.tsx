@@ -23,7 +23,7 @@ const hanclick = ()=>{
 
 <h1>hà xuân huy</h1>
 <form className={clsx(Styles.form)}>
-  <div style={{paddingLeft: '500px'}}>
+  <div style={{paddingLeft: '580px' , paddingBottom: '10px'}}>
 
 <  CloseButton onClick={hanclick}  />
   </div>

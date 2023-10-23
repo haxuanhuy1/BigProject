@@ -41,6 +41,7 @@ function App() {
  
   const statestore = useSelector((state:root) => state.user)
 console.log(statestore.payload)
+
       // Kiểm tra giá trị của statestore và cập nhật isModalVisible
   //     setIsvisible(statestore)
   //     console.log(statestore)
@@ -61,7 +62,7 @@ console.log(statestore.payload)
   // }, [statestore, prevStoreValue]);
 // console.log(statestore)
   return (
-    <div className="App">
+    <div  className="App">
      
     <Headerone />
     <Slide />
