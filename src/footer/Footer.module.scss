@@ -6,6 +6,12 @@
     margin-top: 50px;
     position: relative;
     overflow: hidden;
+    .text{
+        padding-top: 50px;
+        .button{
+            background-color: red
+        }
+    }
     .colmd{
         padding-left: 80px;
     }

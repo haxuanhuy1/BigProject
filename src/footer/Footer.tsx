@@ -1,5 +1,6 @@
 import clsx from 'clsx';
 import Styles from './Footer.module.scss'
+import {Button , UncontrolledTooltip} from 'reactstrap'
 const Footer = ()=>{
     return (
        <div className={clsx(Styles.footer)}>
@@ -34,6 +35,16 @@ const Footer = ()=>{
     <input type="email" className={clsx("form-control" ,Styles.formcontrol)} id="email" placeholder="Dòng xe lái thử" name="email"/>
   </div>
   </div>
+</div>
+<div className={clsx("text-center" , Styles.text)}>
+  <Button className={clsx(Styles.button)} id="ScheduleUpdateTooltip">
+    Click me
+  </Button>
+  <UncontrolledTooltip
+    placement="top"
+    target="ScheduleUpdateTooltip"
+    trigger="click"
+  />
 </div>
   {/* <div className="container">
   <div className="row"> */}
